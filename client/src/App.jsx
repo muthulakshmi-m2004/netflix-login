@@ -22,7 +22,7 @@ function LoginPage() {
     }
 
     try {
-      const res = await axios.post("http://localhost:5000/login", {
+      const res = await axios.post("https://netflix-login-api.onrender.com/login", {
         email,
         password,
       });
